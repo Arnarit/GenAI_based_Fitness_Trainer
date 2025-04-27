@@ -1,0 +1,20 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "GenAI based fitness trainer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckduckgo-search>=8.0.0",
+    "faiss-cpu>=1.10.0",
+    "google-generativeai>=0.8.4",
+    "langchain>=0.3.23",
+    "langchain-community>=0.3.21",
+    "langchain-google-genai>=2.0.10",
+    "phidata>=2.7.10",
+    "pillow>=11.2.1",
+    "pycryptodome>=3.22.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.44.1",
+]
